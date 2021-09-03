@@ -58,6 +58,8 @@ namespace BiblioEditor
             this.textBox_isbn = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.textBox_701_1 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -71,7 +73,7 @@ namespace BiblioEditor
             this.textBox_xml.Location = new System.Drawing.Point(0, 0);
             this.textBox_xml.Multiline = true;
             this.textBox_xml.Name = "textBox_xml";
-            this.textBox_xml.Size = new System.Drawing.Size(434, 558);
+            this.textBox_xml.Size = new System.Drawing.Size(434, 602);
             this.textBox_xml.TabIndex = 0;
             // 
             // button_save
@@ -100,16 +102,16 @@ namespace BiblioEditor
             // 
             // textBox_info
             // 
-            this.textBox_info.Location = new System.Drawing.Point(123, 416);
+            this.textBox_info.Location = new System.Drawing.Point(131, 461);
             this.textBox_info.Multiline = true;
             this.textBox_info.Name = "textBox_info";
-            this.textBox_info.Size = new System.Drawing.Size(291, 115);
+            this.textBox_info.Size = new System.Drawing.Size(287, 115);
             this.textBox_info.TabIndex = 24;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(73, 419);
+            this.label12.Location = new System.Drawing.Point(81, 464);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(44, 18);
             this.label12.TabIndex = 23;
@@ -117,7 +119,7 @@ namespace BiblioEditor
             // 
             // textBox_subject
             // 
-            this.textBox_subject.Location = new System.Drawing.Point(123, 348);
+            this.textBox_subject.Location = new System.Drawing.Point(131, 348);
             this.textBox_subject.Name = "textBox_subject";
             this.textBox_subject.Size = new System.Drawing.Size(287, 28);
             this.textBox_subject.TabIndex = 22;
@@ -125,7 +127,7 @@ namespace BiblioEditor
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(55, 351);
+            this.label11.Location = new System.Drawing.Point(63, 351);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(62, 18);
             this.label11.TabIndex = 21;
@@ -133,7 +135,7 @@ namespace BiblioEditor
             // 
             // textBox_size
             // 
-            this.textBox_size.Location = new System.Drawing.Point(123, 314);
+            this.textBox_size.Location = new System.Drawing.Point(131, 314);
             this.textBox_size.Name = "textBox_size";
             this.textBox_size.Size = new System.Drawing.Size(287, 28);
             this.textBox_size.TabIndex = 20;
@@ -141,7 +143,7 @@ namespace BiblioEditor
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(73, 317);
+            this.label9.Location = new System.Drawing.Point(81, 317);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(44, 18);
             this.label9.TabIndex = 19;
@@ -149,7 +151,7 @@ namespace BiblioEditor
             // 
             // textBox_page
             // 
-            this.textBox_page.Location = new System.Drawing.Point(123, 280);
+            this.textBox_page.Location = new System.Drawing.Point(131, 280);
             this.textBox_page.Name = "textBox_page";
             this.textBox_page.Size = new System.Drawing.Size(287, 28);
             this.textBox_page.TabIndex = 18;
@@ -157,7 +159,7 @@ namespace BiblioEditor
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(73, 283);
+            this.label10.Location = new System.Drawing.Point(81, 283);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(44, 18);
             this.label10.TabIndex = 17;
@@ -177,7 +179,7 @@ namespace BiblioEditor
             // 
             // textBox_clcclass
             // 
-            this.textBox_clcclass.Location = new System.Drawing.Point(123, 382);
+            this.textBox_clcclass.Location = new System.Drawing.Point(131, 382);
             this.textBox_clcclass.Name = "textBox_clcclass";
             this.textBox_clcclass.Size = new System.Drawing.Size(287, 28);
             this.textBox_clcclass.TabIndex = 15;
@@ -185,7 +187,7 @@ namespace BiblioEditor
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(3, 385);
+            this.label8.Location = new System.Drawing.Point(11, 385);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(116, 18);
             this.label8.TabIndex = 14;
@@ -193,7 +195,7 @@ namespace BiblioEditor
             // 
             // textBox_publishPlace
             // 
-            this.textBox_publishPlace.Location = new System.Drawing.Point(123, 177);
+            this.textBox_publishPlace.Location = new System.Drawing.Point(131, 177);
             this.textBox_publishPlace.Name = "textBox_publishPlace";
             this.textBox_publishPlace.Size = new System.Drawing.Size(287, 28);
             this.textBox_publishPlace.TabIndex = 13;
@@ -201,7 +203,7 @@ namespace BiblioEditor
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(55, 180);
+            this.label7.Location = new System.Drawing.Point(63, 180);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(62, 18);
             this.label7.TabIndex = 12;
@@ -209,7 +211,7 @@ namespace BiblioEditor
             // 
             // textBox_publishTime
             // 
-            this.textBox_publishTime.Location = new System.Drawing.Point(123, 246);
+            this.textBox_publishTime.Location = new System.Drawing.Point(131, 246);
             this.textBox_publishTime.Name = "textBox_publishTime";
             this.textBox_publishTime.Size = new System.Drawing.Size(287, 28);
             this.textBox_publishTime.TabIndex = 11;
@@ -217,7 +219,7 @@ namespace BiblioEditor
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(37, 249);
+            this.label6.Location = new System.Drawing.Point(45, 249);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(80, 18);
             this.label6.TabIndex = 10;
@@ -225,7 +227,7 @@ namespace BiblioEditor
             // 
             // textBox_publisher
             // 
-            this.textBox_publisher.Location = new System.Drawing.Point(123, 212);
+            this.textBox_publisher.Location = new System.Drawing.Point(131, 212);
             this.textBox_publisher.Name = "textBox_publisher";
             this.textBox_publisher.Size = new System.Drawing.Size(287, 28);
             this.textBox_publisher.TabIndex = 9;
@@ -233,7 +235,7 @@ namespace BiblioEditor
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(55, 215);
+            this.label5.Location = new System.Drawing.Point(63, 215);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(62, 18);
             this.label5.TabIndex = 8;
@@ -241,7 +243,7 @@ namespace BiblioEditor
             // 
             // textBox_author
             // 
-            this.textBox_author.Location = new System.Drawing.Point(123, 141);
+            this.textBox_author.Location = new System.Drawing.Point(131, 141);
             this.textBox_author.Name = "textBox_author";
             this.textBox_author.Size = new System.Drawing.Size(287, 28);
             this.textBox_author.TabIndex = 7;
@@ -249,7 +251,7 @@ namespace BiblioEditor
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(37, 144);
+            this.label4.Location = new System.Drawing.Point(45, 144);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(80, 18);
             this.label4.TabIndex = 6;
@@ -257,7 +259,7 @@ namespace BiblioEditor
             // 
             // textBox_title
             // 
-            this.textBox_title.Location = new System.Drawing.Point(123, 98);
+            this.textBox_title.Location = new System.Drawing.Point(131, 98);
             this.textBox_title.Name = "textBox_title";
             this.textBox_title.Size = new System.Drawing.Size(287, 28);
             this.textBox_title.TabIndex = 5;
@@ -265,7 +267,7 @@ namespace BiblioEditor
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(73, 101);
+            this.label3.Location = new System.Drawing.Point(81, 101);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 18);
             this.label3.TabIndex = 4;
@@ -273,7 +275,7 @@ namespace BiblioEditor
             // 
             // textBox_price
             // 
-            this.textBox_price.Location = new System.Drawing.Point(123, 57);
+            this.textBox_price.Location = new System.Drawing.Point(131, 57);
             this.textBox_price.Name = "textBox_price";
             this.textBox_price.Size = new System.Drawing.Size(287, 28);
             this.textBox_price.TabIndex = 3;
@@ -281,7 +283,7 @@ namespace BiblioEditor
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(73, 67);
+            this.label2.Location = new System.Drawing.Point(81, 67);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 18);
             this.label2.TabIndex = 2;
@@ -289,7 +291,7 @@ namespace BiblioEditor
             // 
             // textBox_isbn
             // 
-            this.textBox_isbn.Location = new System.Drawing.Point(123, 22);
+            this.textBox_isbn.Location = new System.Drawing.Point(131, 22);
             this.textBox_isbn.Name = "textBox_isbn";
             this.textBox_isbn.Size = new System.Drawing.Size(287, 28);
             this.textBox_isbn.TabIndex = 1;
@@ -297,7 +299,7 @@ namespace BiblioEditor
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(73, 32);
+            this.label1.Location = new System.Drawing.Point(81, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 18);
             this.label1.TabIndex = 0;
@@ -311,6 +313,8 @@ namespace BiblioEditor
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.Controls.Add(this.textBox_701_1);
+            this.splitContainer1.Panel1.Controls.Add(this.label13);
             this.splitContainer1.Panel1.Controls.Add(this.button_save);
             this.splitContainer1.Panel1.Controls.Add(this.button_load);
             this.splitContainer1.Panel1.Controls.Add(this.textBox_info);
@@ -342,15 +346,31 @@ namespace BiblioEditor
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.textBox_xml);
-            this.splitContainer1.Size = new System.Drawing.Size(1056, 558);
+            this.splitContainer1.Size = new System.Drawing.Size(1056, 602);
             this.splitContainer1.SplitterDistance = 618;
             this.splitContainer1.TabIndex = 1;
+            // 
+            // textBox_701_1
+            // 
+            this.textBox_701_1.Location = new System.Drawing.Point(131, 416);
+            this.textBox_701_1.Name = "textBox_701_1";
+            this.textBox_701_1.Size = new System.Drawing.Size(287, 28);
+            this.textBox_701_1.TabIndex = 28;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(0, 416);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(116, 18);
+            this.label13.TabIndex = 27;
+            this.label13.Text = "个人主要作者";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1056, 558);
+            this.ClientSize = new System.Drawing.Size(1056, 602);
             this.Controls.Add(this.splitContainer1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -395,6 +415,8 @@ namespace BiblioEditor
         private System.Windows.Forms.TextBox textBox_isbn;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.SplitContainer splitContainer1;
+        private System.Windows.Forms.TextBox textBox_701_1;
+        private System.Windows.Forms.Label label13;
     }
 }
 
